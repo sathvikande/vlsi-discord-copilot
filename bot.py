@@ -1043,11 +1043,10 @@ class HealthCheckHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", "text/plain")
         self.end_headers()
-        self.wfile.write(b"OK — VLSI Bot Running")
+        self.wfile.write(b"OK - VLSI Bot Running")
 
     def log_message(self, format, *args):
-        pass  # Suppress noisy HTTP access logs
-
+        pass
 
 def start_health_server():
     """Spin up the keep-alive HTTP server on a background thread."""
