@@ -5,3 +5,4 @@ pandas==2.1.4
 apscheduler==3.10.4
 requests==2.31.0
 paramiko==3.4.0
+feedparser==6.0.11
