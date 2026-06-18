@@ -1,7 +1,7 @@
-discord.py2.3.2
-litellm1.10.0
-psycopg2-binary2.9.9
-pandas2.1.4
-apscheduler3.10.4
-requests2.31.0
+discord.py==2.3.2
+litellm==1.10.0
+psycopg2-binary==2.9.9
+pandas==2.1.4
+apscheduler==3.10.4
+requests==2.31.0
 paramiko==3.4.0
